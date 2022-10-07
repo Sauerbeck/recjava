@@ -1,0 +1,6 @@
+public interface Game {
+  public abstract void manutencaoConta(Conta conta);
+  public abstract boolean AddCash(Conta conta, double valor);
+  public abstract boolean GastaCash(Conta conta, double valor);
+  public abstract void SaldoConta(Conta conta);
+}

@@ -1,0 +1,29 @@
+```
+public class Animal {
+    private String nome;
+    private int chip;
+
+    public Pessoa(String nome, int chip) {
+        this.nome = nome;
+        this.chip = chip;
+    }
+}
+
+public class Carro {
+    private Pessoa sku;
+    private String modelo;
+    
+
+    public Carro(String modelo, Pessoa sku) {
+        this.modelo = modelo;
+        this.sku = sku;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal animal = new Animal("Tótó", 1);
+        Carro carro = new Carro("Marea Bomba", 555);
+        System.out.println(Animal);
+    }
+}

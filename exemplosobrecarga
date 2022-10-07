@@ -1,0 +1,10 @@
+public class calculadoraexemplo{
+ public int somasub( int number1, int number2){
+    return number1+number2;
+  }
+  public double somasub( double number1, double number2){
+     return number1+number2;
+  }
+   public String somasub( String number1, String number2){
+     return number1+number2;
+}
